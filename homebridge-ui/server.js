@@ -86,7 +86,6 @@ class UiServer extends HomebridgePluginUiServer {
               '-b:v': '299k',
               '-r': rate,
               '-bf': 0,
-              '-preset:v': 'ultrafast',
               '-threads': '1',
             },
             ffmpegPath: videoProcessor,
